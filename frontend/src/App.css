@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+.jvectormap-container svg g g:hover {
+  cursor: pointer;
+}
+.jvectormap-container {
+  box-shadow: inset 0 0 100px #181819;
+}
+.jvectormap-zoomin,
+.jvectormap-zoomout {
+  width: 14px;
+  height: 14px;
+  padding: 6px;
+  left: initial;
+  right: 20px;
+  top: initial;
+  background: #DEDEDE;
+  color: #000;
+}
+.jvectormap-zoomin {
+  bottom: 90px;
+}
+.jvectormap-zoomout {
+  margin-top: 10px;
+  bottom: 60px;
+}
+.country-headline-container {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 75%;
+  border: 1px solid rgb(76, 76, 76);
+  border-radius: 5px;
+  box-shadow: #141515 4px 3px 9px;
+  background: rgb(43, 43, 43);
+  color: rgb(222, 222, 222);
+}
+.fa-times {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.fa-times:hover {
+  cursor: pointer;
+}
+/* .global-headline-container {
+  position: fixed;
+  bottom: 0;
+  width: 30%;
+  border: 1px solid #4c4c4c;
+  border-radius: 8px;
+  background: #2B2B2B;
+  color: #dedede;
+} */
+.fa-question-circle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 26px;
+  color: #DEDEDE;
+}
+.ticker {
+  position: absolute !important;
+  bottom: 0;
+  width: 100%;
+  background: #000;
+  color: #dedede;
+}
